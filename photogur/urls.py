@@ -23,3 +23,4 @@ urlpatterns = [
     path('pictures/', views.pictures), 
     path('pictures/<int:id>', views.picture_show)
 ]
+
